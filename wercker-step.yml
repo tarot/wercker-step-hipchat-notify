@@ -1,0 +1,13 @@
+name: hipchat-notify
+version: 0.0.1
+description: Send a message to a HipChat room
+keywords:
+  - notification
+  - hipchat
+properties:
+  token:
+    type: string
+    required: true
+  room-id:
+    type: string
+    required: true
